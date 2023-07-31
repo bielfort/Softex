@@ -13,6 +13,7 @@
 var calculo, n1, n2, opcao;
 
 var menu = `
+
 Esta é uma calculadora. Bem-vindo!
 
 1. Soma
@@ -22,14 +23,7 @@ Esta é uma calculadora. Bem-vindo!
 0. Sair
 `
 
-//Input de menu
-alert(menu);
-opcao = parseInt(prompt("Selecione a operação desejada:"))
-while (opcao > 4 || opcao < 0) {
-    console.log("Valor selecionado é inválido. Tente novamente.")
-    alert(menu)
-    opcao = parseInt(prompt("Selecione a operação desejada:"))
-}
+
 
 // Funcoes
 function soma(calculo) {
@@ -47,6 +41,18 @@ function multiplicacao(calculo) {
 function divisao(calculo) {
     calculo = parseFloat(n1) / parseFloat(n2)
     return calculo;
+}
+
+
+// Primeiro while irá servir para fazer o loop do programa, enquanto o segundo para garantir que os valores digitados estejam entre 0 e 4
+while (opcao != 0) {
+//Input de menu
+alert(menu);
+opcao = parseInt(prompt("Selecione a operação desejada:"))
+while (opcao > 4 || opcao < 0) {
+    console.log("Valor selecionado é inválido. Tente novamente.")
+    alert(menu)
+    opcao = parseInt(prompt("Selecione a operação desejada:"))
 }
 
 // Execução
@@ -75,4 +81,4 @@ switch(opcao) {
         console.log("Encerrando programa...")
         break;
 
-}
+}}
