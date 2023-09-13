@@ -44,22 +44,21 @@ do {
     voto = Number(voto);
 
     switch (voto) {
-      case CANDIDATOS.candidato01Num;
+      case CANDIDATOS.candidato01Num:
         qtdVotosCandidato01++;
-        break;
-      case CANDIDATOS.candidato02Num;
+        break
+      case CANDIDATOS.candidato02Num:
         qtdVotosCandidato02++;
         break;
-      case CANDIDATOS.candidato03Num;
+      case CANDIDATOS.candidato03Num:
         qtdVotosCandidato03++;
         break;
-      case CANDIDATOS.brancoNum;
+      case CANDIDATOS.brancoNum:
         qtdVotosBranco++;
         break;
-      default CANDIDATOS.nuloNome
+      default: 
+        CANDIDATOS.nuloNome;
         break;
-
-
     }
     
     var finalizar = prompt("Deseja finalizar a votação? (SIM | NÃO )  ").toUpperCase();
