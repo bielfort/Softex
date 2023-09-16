@@ -1,4 +1,4 @@
-import { No } from "./no.js";
+import { No } from "./ListaEncadeada1/no.js";
 
 export class ListaEncadeada {
     constructor(cabeca) {
