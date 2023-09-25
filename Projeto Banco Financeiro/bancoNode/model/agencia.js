@@ -1,4 +1,4 @@
-export class agencia {
+export class Agencia {
     constructor(nome, numero, telefone, email, endereço){
         this.nome = nome;
         this.numero = numero;

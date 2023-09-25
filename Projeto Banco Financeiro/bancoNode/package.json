@@ -1,28 +1,18 @@
 {
-  "name": "projeto-banco-financeiro",
+  "name": "projeto1",
   "version": "1.0.0",
-  "description": "Projeto de banco da aula de Javascript e Node.JS do curso de formação acelerada em Back-end da Softex Recife",
+  "description": "Estudo de caso de um banco financeiro para a disciplina de JS",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bielfort/Softex.git"
-  },
   "keywords": [
-    "Educação",
-    "Javascript"
+    "Educação"
   ],
-  "author": "Gabriel Leal de C. Belfort",
+  "author": "Turma Back FAP Noite",
   "license": "ISC",
   "type": "module",
-  "bugs": {
-    "url": "https://github.com/bielfort/Softex/issues"
-  },
-  "homepage": "https://github.com/bielfort/Softex#readme",
   "dependencies": {
-    "prompt": "^1.3.0",
     "prompt-sync": "^4.2.0"
   }
 }
