@@ -10,6 +10,7 @@ let endCliente = new Endereco('PE','Recife', 'iputinga', 'rua aderbal de melo', 
 let cliente = new Cliente('Marcelo', '1234567-89', new Date("1969-12-06").toLocaleDateString(), 1234567, 'gabriel.leal.belfort@gmail.com', '81995033423', endCliente);
 let contaCliente = new Conta(cliente, 4321, agSoftex, 1250.00)
 
+
 contaCliente.depositar(200);
 contaCliente.sacar(500);
 
