@@ -1,4 +1,4 @@
-Objeto Material: Carro
+/*Objeto Material: Carro
 Atributos:
 
 Marca
@@ -10,7 +10,8 @@ Ligar o carro
 Desligar o carro
 Acelerar o carro
 javascript
-Copy code
+*/
+
 const carro = {
   marca: "Toyota",
   modelo: "Corolla",
@@ -36,7 +37,10 @@ const carro = {
 carro.ligar();
 carro.acelerar(60);
 carro.desligar();
-Objeto Material: Smartphone
+
+
+/*Objeto Material: Smartphone
+
 Atributos:
 
 Marca
@@ -48,7 +52,8 @@ Fazer uma chamada
 Enviar uma mensagem
 Tirar uma foto
 javascript
-Copy code
+*/
+
 const smartphone = {
   marca: "Apple",
   modelo: "iPhone 13",
@@ -82,7 +87,8 @@ smartphone.ligar();
 smartphone.fazerChamada("123-456-789");
 smartphone.tirarFoto();
 smartphone.desligar();
-Objeto Abstrato: Conta Bancária
+
+/* Objeto Abstrato: Conta Bancária
 Atributos:
 
 Nome do titular
@@ -94,7 +100,8 @@ Realizar um depósito
 Realizar um saque
 Verificar o saldo
 javascript
-Copy code
+*/
+
 const contaBancaria = {
   titular: "João Silva",
   saldo: 5000,
@@ -119,7 +126,9 @@ const contaBancaria = {
 contaBancaria.deposito(1000);
 contaBancaria.saque(500);
 contaBancaria.verificarSaldo();
-Objeto Abstrato: Rede Social
+
+/*Objeto Abstrato: Rede Social
+
 Atributos:
 
 Nome de usuário
@@ -130,8 +139,10 @@ Métodos:
 Publicar um post
 Adicionar um amigo
 Verificar o número de amigos
-javascript
-Copy code
+
+*/
+
+
 const redeSocial = {
   usuario: "jsilva123",
   amigos: 500,
@@ -152,4 +163,5 @@ const redeSocial = {
 redeSocial.publicarPost("Olá, mundo!");
 redeSocial.adicionarAmigo();
 redeSocial.verificarAmigos();
-Esses exemplos demonstram como criar objetos com atributos e métodos em JavaScript e como utilizá-los para representar objetos materiais (carro e smartphone) e objetos abstratos (conta bancária e rede social).
+
+//Esses exemplos demonstram como criar objetos com atributos e métodos em JavaScript e como utilizá-los para representar objetos materiais (carro e smartphone) e objetos abstratos (conta bancária e rede social).
